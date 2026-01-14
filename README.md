@@ -13,7 +13,7 @@ Value: **your API key**
 3. (Optional) Adjust the API URL in the HTTP Request (CoinGecko API) node to change: 
 
  **Currency**: 'currency=gbp' (or 'usd')
- **Numner of Coins**: 'per_page=10' (or '100')
+ **Number of Coins**: 'per_page=10' (or '100')
 
 ## Filtering & Rounding
 
