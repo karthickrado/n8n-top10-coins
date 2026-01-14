@@ -8,11 +8,13 @@ This workflow pulls live market data from CoinGecko for the top 10 cryptocurrenc
 2. Add your API key in the HTTP Request (CoinGecko API) node under 'Header Parameters':
 
 Name: 'x-cg-demo-api-key'
+
 Value: **your API key**
 
 3. (Optional) Adjust the API URL in the HTTP Request (CoinGecko API) node to change: 
 
  **Currency**: 'currency=gbp' (or 'usd')
+
  **Number of Coins**: 'per_page=10' (or '100')
 
 ## Filtering & Rounding
