@@ -4,7 +4,7 @@
 This workflow pulls live market data from CoinGecko for the top 10 cryptocurrencies by market cap, transforms and rounds the data, adds a timestamp, and exports it to an XLSX file (can be adjusted). It can run on a schedule (currently hourly).
 
 **How to Run**
-1. Import `CoinGecko_top10_coins_workflow.json` into n8n.
+1. Import `CoinGecko_top10_coins_workflow.json` into [n8n](https://n8n.io/).
 2. Add your CoinGecko API key in the HTTP Request node (optional but recommended).
 3. Run manually or let the schedule trigger update the XLSX automatically.
 4. XLSX output will be created in your chosen folder.
